@@ -1,4 +1,7 @@
 var express = require('express');
+var fs = require('fs');
+var buf = require('buffer');
+
 
 var app = express.createServer(express.logger());
 
